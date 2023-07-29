@@ -40,8 +40,6 @@ function read() {
     p2.innerText = el.LastName;
     btnDel.innerText = 'Удалить';
     infoText.classList.add("infoText")
-    infoDiv.classList.add("infoDiv")
-
     infoText.append(p1);
     infoText.append(p2);
     infoText.append(btnDel);
