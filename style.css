@@ -1,0 +1,94 @@
+body{
+    background-color: green;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    width: 340px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    border: 3px solid white;
+
+    border-radius: 11px;
+}
+.list{
+    padding: 10px;
+    overflow: scroll;
+    height: 300px;
+}
+input{
+    width: 200px;
+    height: 40px;
+    margin: 15px 0;
+    font-size: 19px;
+    border-radius: 6px;
+}
+.inputs h1{
+    color: white;
+}
+.btn{
+    width: 140px;
+    height: 33px;
+    background:rgb(255, 5, 5) ;
+    border:none ;
+    color: wheat;
+    border-radius: 8px;
+
+}
+
+
+.btn-dell{
+    width: 140px;
+    height: 33px;
+    background:rgb(30, 5, 255) ;
+    border:none ;
+    color: wheat;
+    border-radius: 8px;
+}
+.list-group{
+    width: 500px;
+    height: 400px;
+background-color: #202020;
+border-radius: 10px;
+margin-left: 460px;
+margin-top: 80px;
+font-size: 33px;
+text-align: center;
+color: rgb(6, 38, 83);
+font-family: sans-serif;
+padding-top: 20px;
+overflow: scroll;
+border: 3px solid white;
+}
+
+.list-group .list .infoText{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid white;
+        text-align: center;
+        background: rgb(34,193,195);
+        background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+        margin: 20px 0;
+}
+.list-group .list .infoText p {
+    margin: 0 20px;
+}
+
+.list-group .list .infoText button {
+    width: 90px;
+    height: 33px;
+}
+.infoDiv{
+    width: 500px;
+}
